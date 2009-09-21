@@ -1,4 +1,4 @@
-This is the copy of original web site written by \_why: http://shoooes.net/tutorial/
+This is the copy of original web site written by **\_why**: http://shoooes.net/tutorial/
 
 It's now gone. :(
 
