@@ -257,11 +257,11 @@ Okay, last one for now. Let's generate a hundred random circles. This example al
 	  }
 	}
 
-Okay, last one for now. Let's generate a hundred random circles. This example also uses the rgb method to make colors from red, green and blue fractions.
+Don't worry if you haven't picked up a whole lot reading through these. To get the hang of it, you'll need to alter these yourself. Try fiddling with the numbers and colors. Experiment, you know?
 
 ----------------------
 
 ![017.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F017.jpg?raw=true)
 
-Ready for more? See the manuals page for a pair of longer instructions. Particularly the guide book Nobody Knows Shoes, which teaches the ten essential commands to get going with Shoes.
+Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
 
