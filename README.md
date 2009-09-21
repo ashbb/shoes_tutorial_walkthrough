@@ -1,4 +1,5 @@
 Original web site written by \_why was: http://shoooes.net/tutorial/
+
 It's now gone. :(
 
 ![000.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F000.jpg?raw=true)
@@ -84,7 +85,7 @@ Now, a rectangle and an arrow.
 	}
 
 
-The fill is red on these shapes. And the stroke is black. (Because we didn't change it.) These two pens ? stroke and fill ? draw every shape.
+The fill is red on these shapes. And the stroke is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
 
 ----------------------
 
@@ -153,13 +154,7 @@ You can then put the variables into action. When the button is clicked, the @nod
 
 ![011.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F011.jpg?raw=true)
 
-	Shoes.app {
-	  para strong("Q."), " Are you beginning to grasp hold of Shoes?"
-	}
-
 See if you can figure out this one. How does the gradient work? How are the letters styled?
-
-![012.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F012.jpg?raw=true)
 
 	Shoes.app do
 	  background "#F3F".."#F90"
@@ -173,7 +168,7 @@ In this example, I used do and end rather than the braces. Same meaning.
 
 ----------------------
 
-![013.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F013.jpg?raw=true)
+![012.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F012.jpg?raw=true)
 
 Aha, here's a flow. It keeps the text box and the button side-by-side.
 
@@ -191,7 +186,7 @@ Aha, here's a flow. It keeps the text box and the button side-by-side.
 
 ----------------------
 
-![014.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F014.jpg?raw=true)
+![013.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F013.jpg?raw=true)
 
 In this one, we make a five-point star. And it follows the mouse around as you move.
 
@@ -216,11 +211,11 @@ On to a taste of animation. The Shoes icon moves randomly a bunch of times each 
 	end
 
 
-![015.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F015.jpg?raw=true)
+![014.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F014.jpg?raw=true)
 
 ----------------------
 
-![016.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F016.jpg?raw=true)
+![015.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F015.jpg?raw=true)
 
 Remember a few examples ago when we handled a button click? How about doing the same with a link?
 
