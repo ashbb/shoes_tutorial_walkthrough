@@ -2,7 +2,7 @@ This is the copy of original web site written by **\_why**: http://shoooes.net/t
 
 It's now gone. :(
 
-![000.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F000.jpg?raw=true)
+![000.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/000.jpg)
 
 THE TUTORIAL WALKTHROUGH
 ========================
@@ -11,7 +11,7 @@ An introduction to SHOES. Code and graphical pairs.
 
 Okay, so, a simple Shoes program.
 
-![001.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F001.jpg?raw=true)
+![001.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/001.jpg)
 
 (And again, or in case you've just arrived: Shoes is a graphics toolkit for writing colorful apps using the Ruby programming language ? which is built into Shoes.)
 
@@ -23,7 +23,7 @@ The braces { and } are a kind of container. The button is "in" the app.
 
 ----------------------
 
-![002.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F002.jpg?raw=true)
+![002.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/002.jpg)
 
 We can place a few buttons in a stack.
 
@@ -40,7 +40,7 @@ Stacks are essential! The most important two elements in Shoes are *stacks and f
 ----------------------
 
 
-![003.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F003.jpg?raw=true)
+![003.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/003.jpg)
 
 Okay, let's give the stack a bit of a margin. Scoot it out from the edge.
 
@@ -57,7 +57,7 @@ Also painted the background white. Did you see that?
 
 ----------------------
 
-![004.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F004.jpg?raw=true)
+![004.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/004.jpg)
 
 Time for something new. Artwork. Drawing.
 
@@ -72,7 +72,7 @@ Notice that while buttons just dropped into the window, we drew the circle at a 
 
 ----------------------
 
-![005.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F005.jpg?raw=true)
+![005.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/005.jpg)
 
 Now, a rectangle and an arrow.
 
@@ -95,7 +95,7 @@ Of course, you can always design your app with images. Even images from the web!
 	  image "http://shoooes.net/images/nks-kidnap.png"
 	}
 
-![006.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F006.jpg?raw=true)
+![006.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/006.jpg)
 
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
@@ -107,7 +107,7 @@ Now, a very important element: the para. As in: paragraph. Probably the third mo
 	  para strong("Q."), " Are you beginning to grasp hold of Shoes?"
 	}
 
-![007.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F007.jpg?raw=true)
+![007.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/007.jpg)
 
 ----------------------
 
@@ -122,11 +122,11 @@ Beyond para, you've got title and subtitle, which are bigger fonts. You can add 
 	  }
 	}
 
-![008.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F008.jpg?raw=true)
+![008.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/008.jpg)
 
 ----------------------
 
-![009.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F009.jpg?raw=true)
+![009.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/009.jpg)
 
 Keep track of stuff by naming them as variables.
 
@@ -137,7 +137,7 @@ Keep track of stuff by naming them as variables.
 
 ----------------------
 
-![010.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F010.jpg?raw=true)
+![010.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/010.jpg)
 
 You can then put the variables into action. When the button is clicked, the @node changes to the message shown in the picture.
 
@@ -152,7 +152,7 @@ You can then put the variables into action. When the button is clicked, the @nod
 
 ----------------------
 
-![011.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F011.jpg?raw=true)
+![011.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/011.jpg)
 
 See if you can figure out this one. How does the gradient work? How are the letters styled?
 
@@ -168,7 +168,7 @@ In this example, I used do and end rather than the braces. Same meaning.
 
 ----------------------
 
-![012.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F012.jpg?raw=true)
+![012.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/012.jpg)
 
 Aha, here's a flow. It keeps the text box and the button side-by-side.
 
@@ -186,7 +186,7 @@ Aha, here's a flow. It keeps the text box and the button side-by-side.
 
 ----------------------
 
-![013.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F013.jpg?raw=true)
+![013.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/013.jpg)
 
 In this one, we make a five-point star. And it follows the mouse around as you move.
 
@@ -211,11 +211,11 @@ On to a taste of animation. The Shoes icon moves randomly a bunch of times each 
 	end
 
 
-![014.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F014.jpg?raw=true)
+![014.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/014.jpg)
 
 ----------------------
 
-![015.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F015.jpg?raw=true)
+![015.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/015.jpg)
 
 Remember a few examples ago when we handled a button click? How about doing the same with a link?
 
@@ -241,7 +241,7 @@ So, when the link gets clicked, the stack gets emptied. The poem will disappear.
 
 ----------------------
 
-![016.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F016.jpg?raw=true)
+![016.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/016.jpg)
 
 Okay, last one for now. Let's generate a hundred random circles. This example also uses the rgb method to make colors from red, green and blue fractions.
 
@@ -261,7 +261,7 @@ Don't worry if you haven't picked up a whole lot reading through these. To get t
 
 ----------------------
 
-![017.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/tree/master%2Fimgs%2F017.jpg?raw=true)
+![017.jpg](http://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/017.jpg)
 
 Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
 
