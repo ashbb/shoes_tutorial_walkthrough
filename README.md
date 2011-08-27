@@ -121,8 +121,13 @@ Shoes.app {
   image "http://spiralofhope.com/i/ruby-shoes--nks-kidnap.png"
 }
 ```
+<!--
+As of 2011-08-27, GitHub does not allow hotlinking.  If a Shoes program tries to use an image that is stored on a GitHub server, nothing will display.  This is why this example image must be hosted elsewhere.  The image will still be placed in the github repository and referred-to locally, so we don't ever lose it.
 
-![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](http://spiralofhope.com/i/ruby-shoes--nks-kidnap.png)
+The remotely-hosted image was also edited to remove the toolbar.  It's been archived locally (nks-kidnap--modified.png) so it doesn't get lost.
+-->
+
+![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
 
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
