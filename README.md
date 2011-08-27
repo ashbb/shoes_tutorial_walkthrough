@@ -118,7 +118,7 @@ Shoes.app {
 }
 ```
 
-![nks-kidnap.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
+![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
 
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
