@@ -79,8 +79,7 @@ Time for something new, artwork!  Let's draw!
 
 ```ruby
 Shoes.app {
-  oval :left => 10, :top => 10,
-    :radius => 40
+  oval :left => 10, :top => 10, :radius => 40
 }
 ```
 
@@ -97,10 +96,8 @@ Now, a rectangle and an arrow.
 ```ruby
 Shoes.app {
   fill red
-  rect :left => 10, :top => 10,
-    :width => 40
-  arrow :left => 30, :top => 60,
-    :width => 40
+  rect :left => 10, :top => 10, :width => 40
+  arrow :left => 30, :top => 60, :width => 40
 }
 ```
 
@@ -198,7 +195,8 @@ See if you can figure out this one. How does the gradient work? How are the lett
 ```ruby
 Shoes.app do
   background "#F3F".."#F90"
-  title "Shoooes", :top => 60,
+  title "Shoooes",
+    :top => 60,
     :align => "center",
     :font => "Trebuchet MS",
     :stroke => white
@@ -297,13 +295,13 @@ So, when the link gets clicked, the stack gets cleared. The poem will disappear.
 Okay, last one for now. Let's generate a hundred random circles. This example also uses the *rgb* method to make colors from red, green and blue fractions.
 
 ```ruby
-Shoes.app(:width => 300,
-  :height => 400) do
+Shoes.app(:width => 300, :height => 400) do
   fill rgb(0, 0.6, 0.9, 0.1)
   stroke rgb(0, 0.6, 0.9)
   strokewidth 0.25
   100.times {
-    oval :left => (-5..self.width).rand,
+    oval()
+      :left => (-5..self.width).rand,
       :top => (-5..self.height).rand,
       :radius => (25..50).rand
   }
