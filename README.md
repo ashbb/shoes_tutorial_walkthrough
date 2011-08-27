@@ -1,3 +1,6 @@
+HELLO!
+======
+
 This is a copy of [the original web site](http://shoooes.net/tutorial/) written by [_why](http://en.wikipedia.org/wiki/Why_the_lucky_stiff).
 
 It's now gone. :(
@@ -5,6 +8,8 @@ It's now gone. :(
 ![000.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/000.jpg)
 
 In case you've just arrived: Shoes is a graphics toolkit for writing colorful apps using [the Ruby programming language](http://www.ruby-lang.org/en/).  Ruby is built into Shoes.
+
+Shoes wants to fit in.  It will change the way it looks for each person's computer.  These screenshots were taken on my computer, but when you run them for yourself they will look just like your other programs.  Try it!
 
 THE TUTORIAL WALKTHROUGH
 ========================
@@ -61,6 +66,9 @@ Shoes.app {
 
 We also painted the *background* white. Did you see that?
 
+>! TODO:  Make the margin 50.  It has to be noticeable.
+>! TODO:  Change the background to another more noticeable colour.  Re-screenshot.
+
 ----------------------
 
 ![004.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/004.jpg)
@@ -96,17 +104,21 @@ Shoes.app {
 
 The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
 
+Did you see how the arrow is a little overtop of the circle?
+
+>! TODO:  Change the colour of the two shapes.
+
 ----------------------
 
 Of course, you can always design your app with an *image*. Even images from the web!
 
 ```ruby
 Shoes.app {
-  image "http://shoooes.net/images/nks-kidnap.png"
+  image "https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png"
 }
 ```
 
-![006.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/006.jpg)
+![006.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
 
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
@@ -293,3 +305,10 @@ Don't worry if you haven't picked up a whole lot reading through these. To get t
 ![017.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/017.jpg)
 
 Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
+
+----------------------
+
+Notes
+
+>! TODO:  If any one screenshot is updated, all screenshots must be updated.  =(
+>! TODO:  Consider colour for colourblindness?  e.g. don't use red.
