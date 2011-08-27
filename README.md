@@ -311,7 +311,7 @@ Don't worry if you haven't picked up a whole lot reading through these. To get t
 
 ----------------------
 
-![017.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/017.jpg)
+![shoes.png](http://spiralofhope.com/i/ruby-shoes--shoes.png)
 
 Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
 
