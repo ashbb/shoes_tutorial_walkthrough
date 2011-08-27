@@ -4,18 +4,20 @@ It's now gone. :(
 
 ![000.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/000.jpg)
 
+In case you've just arrived: Shoes is a graphics toolkit for writing colorful apps using [the Ruby programming language](http://www.ruby-lang.org/en/).  Ruby is built into Shoes.
+
 THE TUTORIAL WALKTHROUGH
 ========================
 
-An introduction to SHOES. Code and graphical pairs.
+An introduction to Shoes. Code and graphical pairs.
 
 Okay, so, a simple Shoes program.
 
 ![001.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/001.jpg)
 
-(And again, or in case you've just arrived: Shoes is a graphics toolkit for writing colorful apps using the Ruby programming language ? which is built into Shoes.)
-
+```ruby
 	Shoes.app { button "Push me" }
+```
 
 You can just save the program in a file called little.rb and open it with Shoes.
 
