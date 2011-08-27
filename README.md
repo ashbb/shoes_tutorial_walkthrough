@@ -66,8 +66,9 @@ Shoes.app {
 
 We also painted the *background* white. Did you see that?
 
->! TODO:  Make the margin 50.  It has to be noticeable.
->! TODO:  Change the background to another more noticeable colour.  Re-screenshot.
+> TODO:  Make the margin 50.  It has to be noticeable.
+> 
+> TODO:  Change the background to another more noticeable colour.  Re-screenshot.
 
 ----------------------
 
@@ -106,7 +107,7 @@ The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't
 
 Did you see how the arrow is a little overtop of the circle?
 
->! TODO:  Change the colour of the two shapes.
+> TODO:  Change the colour of the two shapes.
 
 ----------------------
 
@@ -114,7 +115,7 @@ Of course, you can always design your app with an *image*. Even images from the 
 
 ```ruby
 Shoes.app {
-  image "https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png"
+  image "http://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png"
 }
 ```
 
@@ -310,5 +311,5 @@ Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) pag
 
 Notes
 
->! TODO:  If any one screenshot is updated, all screenshots must be updated.  =(
->! TODO:  Consider colour for colourblindness?  e.g. don't use red.
+> TODO:  If any one screenshot is updated, all screenshots must be updated.  =(
+> TODO:  Consider colour for colourblindness?  e.g. don't use red.
