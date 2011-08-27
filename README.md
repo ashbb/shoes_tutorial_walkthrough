@@ -118,7 +118,7 @@ Shoes.app {
 }
 ```
 
-![006.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
+![nks-kidnap.png](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
 
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
