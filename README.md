@@ -262,6 +262,9 @@ end
 ----------------------
 
 ![015.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/015.jpg)
+<!--
+TODO:  Update this screenshot to remove the blank line at the top.
+-->
 
 Remember a few examples ago when we handled a button click? How about doing the same with a link?
 
