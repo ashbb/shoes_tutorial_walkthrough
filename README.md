@@ -18,7 +18,7 @@ An introduction to Shoes. Code and graphical pairs.
 
 Okay, so, a simple Shoes program.
 
-![001.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/001.jpg)
+![001.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/001.png)
 
 ```ruby
 Shoes.app { button "Push me" }
@@ -30,7 +30,7 @@ The braces `{` and `}` are a kind of container. The button is "in" the app.
 
 ----------------------
 
-![002.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/002.jpg)
+![002.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/002.png)
 
 We can place a few buttons in a *stack*.
 
@@ -49,7 +49,7 @@ Stacks are essential! The most important two elements in Shoes are *stacks* and 
 ----------------------
 
 
-![003.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/003.jpg)
+![003.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/003.png)
 
 Okay, let's give the stack a bit of a *margin*. Scoot it out from the edge.
 
@@ -73,7 +73,7 @@ TODO:  Change the background to another more noticeable colour.  Re-screenshot.
 
 ----------------------
 
-![004.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/004.jpg)
+![004.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/004.png)
 
 Time for something new, artwork!  Let's draw!
 
@@ -150,7 +150,7 @@ Shoes.app {
 }
 ```
 
-![007.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/007.jpg)
+![007.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/007.png)
 
 ----------------------
 
@@ -166,11 +166,11 @@ Shoes.app {
 }
 ```
 
-![008.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/008.jpg)
+![008.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/008.png)
 
 ----------------------
 
-![009.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/009.jpg)
+![009.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/009.png)
 
 Keep track of stuff by naming them as variables.
 
@@ -183,7 +183,7 @@ Shoes.app {
 
 ----------------------
 
-![010.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/010.jpg)
+![010.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/010.png)
 
 You can then put the variables into action. When the button is clicked, the `@note` changes to the message shown in the picture.
 
@@ -199,7 +199,7 @@ Shoes.app {
 
 ----------------------
 
-![011.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/011.jpg)
+![011.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/011.png)
 
 See if you can figure out this one. How does the gradient work? How are the letters styled?
 
@@ -220,7 +220,7 @@ In this example, I used *do* and end *rather* than the braces `{` and `}`. They 
 
 ----------------------
 
-![012.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/012.jpg)
+![012.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/012.png)
 
 Aha, here's a flow. It keeps the text box and the button side-by-side.
 
@@ -243,7 +243,7 @@ end
 
 ----------------------
 
-![013.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/013.jpg)
+![013.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/013.png)
 
 In this one, we make a five-point star. And it follows the mouse around as you move.
 
@@ -274,11 +274,11 @@ Shoes.app do
 end
 ```
 
-![014.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/014.jpg)
+![014.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/014.png)
 
 ----------------------
 
-![015.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/015.jpg)
+![015.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/015.png)
 <!--
 TODO:  Update this screenshot to remove the blank line at the top.
 -->
@@ -310,7 +310,7 @@ So, when the link gets clicked, the stack gets cleared. The poem will disappear.
 
 ----------------------
 
-![016.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/016.jpg)
+![016.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/016.png)
 
 Okay, last one for now. Let's generate a hundred random circles. This example also uses the *rgb* method to make colors from red, green and blue fractions.
 
