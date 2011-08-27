@@ -21,13 +21,13 @@ Okay, so, a simple Shoes program.
 
 You can just save the program in a file called little.rb and open it with Shoes.
 
-The braces { and } are a kind of container. The button is "in" the app.
+The braces `{` and `}` are a kind of container. The button is "in" the app.
 
 ----------------------
 
 ![002.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/002.jpg)
 
-We can place a few buttons in a stack.
+We can place a few buttons in a *stack*.
 
 ```ruby
 	Shoes.app {
@@ -39,14 +39,14 @@ We can place a few buttons in a stack.
 	}
 ```
 
-Stacks are essential! The most important two elements in Shoes are *stacks and flows*.
+Stacks are essential! The most important two elements in Shoes are *stacks* and *flows*.
 
 ----------------------
 
 
 ![003.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/003.jpg)
 
-Okay, let's give the stack a bit of a margin. Scoot it out from the edge.
+Okay, let's give the stack a bit of a *margin*. Scoot it out from the edge.
 
 ```ruby
 	Shoes.app {
@@ -59,13 +59,13 @@ Okay, let's give the stack a bit of a margin. Scoot it out from the edge.
 	}
 ```
 
-Also painted the background white. Did you see that?
+We also painted the *background* white. Did you see that?
 
 ----------------------
 
 ![004.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/004.jpg)
 
-Time for something new. Artwork. Drawing.
+Time for something new, artwork!  Let's draw!
 
 ```ruby
 	Shoes.app {
@@ -94,11 +94,11 @@ Now, a rectangle and an arrow.
 	}
 ```
 
-The fill is red on these shapes. And the stroke is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
+The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
 
 ----------------------
 
-Of course, you can always design your app with images. Even images from the web!
+Of course, you can always design your app with an *image*. Even images from the web!
 
 ```ruby
 	Shoes.app {
@@ -112,7 +112,7 @@ Shoes even caches images in memory and on disk, like browsers do. Images are loa
 
 ----------------------
 
-Now, a very important element: the para. As in: paragraph. Probably the third most important element (after stacks and flows.)
+Now, a very important element: the *para*. As in: paragraph. Probably the third most important element (after stacks and flows.)
 
 ```ruby
 	Shoes.app {
@@ -124,7 +124,7 @@ Now, a very important element: the para. As in: paragraph. Probably the third mo
 
 ----------------------
 
-Beyond para, you've got title and subtitle, which are bigger fonts. You can add a bunch of font styles as well. Look for strong and em in this bit.
+Beyond para, you've got *title* and *subtitle*, which are bigger fonts. You can add a bunch of font styles as well. Look for *strong* and *em* in this bit.
 
 ```ruby
 	Shoes.app {
@@ -155,7 +155,7 @@ Keep track of stuff by naming them as variables.
 
 ![010.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/010.jpg)
 
-You can then put the variables into action. When the button is clicked, the @node changes to the message shown in the picture.
+You can then put the variables into action. When the button is clicked, the `@note` changes to the message shown in the picture.
 
 ```ruby
 	Shoes.app {
@@ -184,7 +184,7 @@ See if you can figure out this one. How does the gradient work? How are the lett
 	end
 ```
 
-In this example, I used do and end rather than the braces. Same meaning.
+In this example, I used *do* and end *rather* than the braces `{` and `}`. They have the same meaning.
 
 ----------------------
 
@@ -264,13 +264,13 @@ Remember a few examples ago when we handled a button click? How about doing the 
 	}
 ```
 
-So, when the link gets clicked, the stack gets emptied. The poem will disappear.
+So, when the link gets clicked, the stack gets cleared. The poem will disappear.
 
 ----------------------
 
 ![016.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/016.jpg)
 
-Okay, last one for now. Let's generate a hundred random circles. This example also uses the rgb method to make colors from red, green and blue fractions.
+Okay, last one for now. Let's generate a hundred random circles. This example also uses the *rgb* method to make colors from red, green and blue fractions.
 
 ```ruby
 	Shoes.app(:width => 300,
