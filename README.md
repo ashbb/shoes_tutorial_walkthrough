@@ -269,7 +269,7 @@ TODO:  Update this screenshot to remove the blank line at the top.
 Remember a few examples ago when we handled a button click? How about doing the same with a link?
 
 ```ruby
-Shoes.app {
+Shoes.app do
   @poem = stack {
     para "My eyes have blinked again
 And I have just realized
@@ -285,7 +285,7 @@ The scenery."
   para(
     link("Clear").click { @poem.clear }
   )
-}
+end
 ```
 
 So, when the link gets clicked, the stack gets cleared. The poem will disappear.
@@ -298,7 +298,7 @@ Okay, last one for now. Let's generate a hundred random circles. This example al
 
 ```ruby
 Shoes.app(:width => 300,
-  :height => 400) {
+  :height => 400) do
   fill rgb(0, 0.6, 0.9, 0.1)
   stroke rgb(0, 0.6, 0.9)
   strokewidth 0.25
@@ -307,7 +307,7 @@ Shoes.app(:width => 300,
       :top => (-5..self.height).rand,
       :radius => (25..50).rand
   }
-}
+end
 ```
 
 Don't worry if you haven't picked up a whole lot reading through these. To get the hang of it, you'll need to alter these yourself. Try fiddling with the numbers and colors. Experiment, you know?
