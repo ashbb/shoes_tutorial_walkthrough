@@ -118,11 +118,11 @@ Of course, you can always design your app with an *image*. Even images from the 
 
 ```ruby
 Shoes.app {
-  image "http://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png"
+  image "http://spiralofhope.com/i/ruby-shoes--nks-kidnap.png"
 }
 ```
 
-![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/nks-kidnap.png)
+![Aaaa.  My sweet children, I have kidnapped you!  And brought you to my secret Shoes study class!!](http://spiralofhope.com/i/ruby-shoes--nks-kidnap.png)
 
 Shoes even caches images in memory and on disk, like browsers do. Images are loaded in background threads as well, to prevent apps from slowing down.
 
@@ -309,10 +309,6 @@ Don't worry if you haven't picked up a whole lot reading through these. To get t
 ![017.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/017.jpg)
 
 Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
-
-----------------------
-
-Notes
 
 <!--
 TODO:  If any one screenshot is updated, all screenshots must be updated.  =(
