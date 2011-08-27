@@ -268,8 +268,7 @@ Remember a few examples ago when we handled a button click? How about doing the 
 ```ruby
 Shoes.app {
   @poem = stack {
-    para " 
-My eyes have blinked again
+    para "My eyes have blinked again
 And I have just realized
 This upright world 
 I have been in.
@@ -280,8 +279,9 @@ Reseting and renovating
 The scenery."
   }
 
-  para(link("Clear").
-    click { @poem.clear })
+  para(
+    link("Clear").click { @poem.clear }
+  )
 }
 ```
 
