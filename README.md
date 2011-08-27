@@ -1,7 +1,7 @@
 HELLO!
 ======
 
-This is a copy of [the original web site](http://shoooes.net/tutorial/) written by [_why](http://en.wikipedia.org/wiki/Why_the_lucky_stiff).
+This is a copy of the original web site written by [_why](http://en.wikipedia.org/wiki/Why_the_lucky_stiff).
 
 It's now gone. :(
 
@@ -314,7 +314,11 @@ Don't worry if you haven't picked up a whole lot reading through these. To get t
 
 ![shoes.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/shoes.png)
 
-Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
+Ready for more? See the [manuals](http://shoesrb.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
+<!--
+The pdf should be hosted under direct control, probably shoesrb.com
+-->
+
 
 <!--
 TODO:  If any one screenshot is updated, all screenshots must be updated.  =(
