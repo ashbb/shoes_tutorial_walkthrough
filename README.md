@@ -16,7 +16,7 @@ Okay, so, a simple Shoes program.
 ![001.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/001.jpg)
 
 ```ruby
-	Shoes.app { button "Push me" }
+Shoes.app { button "Push me" }
 ```
 
 You can just save the program in a file called little.rb and open it with Shoes.
@@ -30,13 +30,13 @@ The braces `{` and `}` are a kind of container. The button is "in" the app.
 We can place a few buttons in a *stack*.
 
 ```ruby
-	Shoes.app {
-	  stack {
-	    button "A bed of clams"
-	    button "A coalition of cheetahs"
-	    button "A gulp of swallows"
-	  }
-	}
+Shoes.app {
+  stack {
+    button "A bed of clams"
+    button "A coalition of cheetahs"
+    button "A gulp of swallows"
+  }
+}
 ```
 
 Stacks are essential! The most important two elements in Shoes are *stacks* and *flows*.
@@ -49,14 +49,14 @@ Stacks are essential! The most important two elements in Shoes are *stacks* and 
 Okay, let's give the stack a bit of a *margin*. Scoot it out from the edge.
 
 ```ruby
-	Shoes.app {
-	  background white
-	  stack(:margin => 8) {
-	    button "A bed of clams"
-	    button "A coalition of cheetahs"
-	    button "A gulp of swallows"
-	  }
-	}
+Shoes.app {
+  background white
+  stack(:margin => 8) {
+    button "A bed of clams"
+    button "A coalition of cheetahs"
+    button "A gulp of swallows"
+  }
+}
 ```
 
 We also painted the *background* white. Did you see that?
@@ -68,10 +68,10 @@ We also painted the *background* white. Did you see that?
 Time for something new, artwork!  Let's draw!
 
 ```ruby
-	Shoes.app {
-	  oval :left => 10, :top => 10,
-	    :radius => 40
-	}
+Shoes.app {
+  oval :left => 10, :top => 10,
+    :radius => 40
+}
 ```
 
 The Shoes brush always starts out black.
@@ -85,13 +85,13 @@ Notice that while buttons just dropped into the window, we drew the circle at a 
 Now, a rectangle and an arrow.
 
 ```ruby
-	Shoes.app {
-	  fill red
-	  rect :left => 10, :top => 10,
-	    :width => 40
-	  arrow :left => 30, :top => 60,
-	    :width => 40
-	}
+Shoes.app {
+  fill red
+  rect :left => 10, :top => 10,
+    :width => 40
+  arrow :left => 30, :top => 60,
+    :width => 40
+}
 ```
 
 The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
@@ -101,9 +101,9 @@ The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't
 Of course, you can always design your app with an *image*. Even images from the web!
 
 ```ruby
-	Shoes.app {
-	  image "http://shoooes.net/images/nks-kidnap.png"
-	}
+Shoes.app {
+  image "http://shoooes.net/images/nks-kidnap.png"
+}
 ```
 
 ![006.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/006.jpg)
@@ -115,9 +115,9 @@ Shoes even caches images in memory and on disk, like browsers do. Images are loa
 Now, a very important element: the *para*. As in: paragraph. Probably the third most important element (after stacks and flows.)
 
 ```ruby
-	Shoes.app {
-	  para strong("Q."), " Are you beginning to grasp hold of Shoes?"
-	}
+Shoes.app {
+  para strong("Q."), " Are you beginning to grasp hold of Shoes?"
+}
 ```
 
 ![007.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/007.jpg)
@@ -127,13 +127,13 @@ Now, a very important element: the *para*. As in: paragraph. Probably the third 
 Beyond para, you've got *title* and *subtitle*, which are bigger fonts. You can add a bunch of font styles as well. Look for *strong* and *em* in this bit.
 
 ```ruby
-	Shoes.app {
-	  stack(:margin => 6) {
-	    title "A Question"
-	    para strong("Q."), " Are you beginning to grasp hold of Shoes?"
-	    para em(strong("A."), " Quit pestering me, I'm hacking here.")
-	  }
-	}
+Shoes.app {
+  stack(:margin => 6) {
+    title "A Question"
+    para strong("Q."), " Are you beginning to grasp hold of Shoes?"
+    para em(strong("A."), " Quit pestering me, I'm hacking here.")
+  }
+}
 ```
 
 ![008.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/008.jpg)
@@ -145,10 +145,10 @@ Beyond para, you've got *title* and *subtitle*, which are bigger fonts. You can 
 Keep track of stuff by naming them as variables.
 
 ```ruby
-	Shoes.app {
-	  @push = button "Push me"
-	  @note = para "Nothing pushed so far"
-	}
+Shoes.app {
+  @push = button "Push me"
+  @note = para "Nothing pushed so far"
+}
 ```
 
 ----------------------
@@ -158,14 +158,14 @@ Keep track of stuff by naming them as variables.
 You can then put the variables into action. When the button is clicked, the `@note` changes to the message shown in the picture.
 
 ```ruby
-	Shoes.app {
-	  @push = button "Push me"
-	  @note = para "Nothing pushed so far"
-	
-	  @push.click {
-	    @note.replace "Aha! Click!"
-	  }
-	}
+Shoes.app {
+  @push = button "Push me"
+  @note = para "Nothing pushed so far"
+
+  @push.click {
+    @note.replace "Aha! Click!"
+  }
+}
 ```
 
 ----------------------
@@ -175,13 +175,13 @@ You can then put the variables into action. When the button is clicked, the `@no
 See if you can figure out this one. How does the gradient work? How are the letters styled?
 
 ```ruby
-	Shoes.app do
-	  background "#F3F".."#F90"
-	  title "Shoooes", :top => 60,
-	    :align => "center",
-	    :font => "Trebuchet MS",
-	    :stroke => white
-	end
+Shoes.app do
+  background "#F3F".."#F90"
+  title "Shoooes", :top => 60,
+    :align => "center",
+    :font => "Trebuchet MS",
+    :stroke => white
+end
 ```
 
 In this example, I used *do* and end *rather* than the braces `{` and `}`. They have the same meaning.
@@ -193,17 +193,17 @@ In this example, I used *do* and end *rather* than the braces `{` and `}`. They 
 Aha, here's a flow. It keeps the text box and the button side-by-side.
 
 ```ruby
-	Shoes.app do
-	  background "#EFC"
-	  border "#BE8", :strokewidth => 6
-	  stack(:margin => 12) do
-	    para "Enter your name"
-	    flow do
-	      edit_line
-	      button "OK"
-	    end
-	  end
-	end
+Shoes.app do
+  background "#EFC"
+  border "#BE8", :strokewidth => 6
+  stack(:margin => 12) do
+    para "Enter your name"
+    flow do
+      edit_line
+      button "OK"
+    end
+  end
+end
 ```
 
 ----------------------
@@ -213,12 +213,12 @@ Aha, here's a flow. It keeps the text box and the button side-by-side.
 In this one, we make a five-point star. And it follows the mouse around as you move.
 
 ```ruby
-	Shoes.app do
-	  @shape = star :points => 5
-	  motion do |left, top|
-	    @shape.move left, top
-	  end
-	end
+Shoes.app do
+  @shape = star :points => 5
+  motion do |left, top|
+    @shape.move left, top
+  end
+end
 ```
 
 ----------------------
@@ -226,14 +226,14 @@ In this one, we make a five-point star. And it follows the mouse around as you m
 On to a taste of animation. The Shoes icon moves randomly a bunch of times each second.
 
 ```ruby
-	Shoes.app do
-	  @shoes = image "http://shoooes.net/shoes.png",
-	    :top => 100, :left => 100
-	  animate do |i|
-	    @shoes.top += (-20..20).rand
-	    @shoes.left += (-20..20).rand
-	  end
-	end
+Shoes.app do
+  @shoes = image "http://shoooes.net/shoes.png",
+    :top => 100, :left => 100
+  animate do |i|
+    @shoes.top += (-20..20).rand
+    @shoes.left += (-20..20).rand
+  end
+end
 ```
 
 ![014.jpg](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/014.jpg)
@@ -245,23 +245,23 @@ On to a taste of animation. The Shoes icon moves randomly a bunch of times each 
 Remember a few examples ago when we handled a button click? How about doing the same with a link?
 
 ```ruby
-	Shoes.app {
-	  @poem = stack {
-	    para " 
-	My eyes have blinked again
-	And I have just realized
-	This upright world 
-	I have been in.
-	
-	My eyelids wipe
-	My eyes hundreds of times
-	Reseting and renovating
-	The scenery."
-	  }
-	
-	  para(link("Clear").
-	    click { @poem.clear })
-	}
+Shoes.app {
+  @poem = stack {
+    para " 
+My eyes have blinked again
+And I have just realized
+This upright world 
+I have been in.
+
+My eyelids wipe
+My eyes hundreds of times
+Reseting and renovating
+The scenery."
+  }
+
+  para(link("Clear").
+    click { @poem.clear })
+}
 ```
 
 So, when the link gets clicked, the stack gets cleared. The poem will disappear.
@@ -273,17 +273,17 @@ So, when the link gets clicked, the stack gets cleared. The poem will disappear.
 Okay, last one for now. Let's generate a hundred random circles. This example also uses the *rgb* method to make colors from red, green and blue fractions.
 
 ```ruby
-	Shoes.app(:width => 300,
-	  :height => 400) {
-	  fill rgb(0, 0.6, 0.9, 0.1)
-	  stroke rgb(0, 0.6, 0.9)
-	  strokewidth 0.25
-	  100.times {
-	    oval :left => (-5..self.width).rand,
-	      :top => (-5..self.height).rand,
-	      :radius => (25..50).rand
-	  }
-	}
+Shoes.app(:width => 300,
+  :height => 400) {
+  fill rgb(0, 0.6, 0.9, 0.1)
+  stroke rgb(0, 0.6, 0.9)
+  strokewidth 0.25
+  100.times {
+    oval :left => (-5..self.width).rand,
+      :top => (-5..self.height).rand,
+      :radius => (25..50).rand
+  }
+}
 ```
 
 Don't worry if you haven't picked up a whole lot reading through these. To get the hang of it, you'll need to alter these yourself. Try fiddling with the numbers and colors. Experiment, you know?
