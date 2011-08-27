@@ -248,7 +248,7 @@ On to a taste of animation. The Shoes icon moves randomly a bunch of times each 
 
 ```ruby
 Shoes.app do
-  @shoes = image "http://shoooes.net/shoes.png",
+  @shoes = image "http://spiralofhope.com/i/ruby-shoes--shoes.png",
     :top => 100, :left => 100
   animate do |i|
     @shoes.top += (-20..20).rand
@@ -311,7 +311,7 @@ Don't worry if you haven't picked up a whole lot reading through these. To get t
 
 ----------------------
 
-![shoes.png](http://spiralofhope.com/i/ruby-shoes--shoes.png)
+![shoes.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/shoes.png)
 
 Ready for more? See the [manuals](http://shoes.heroku.com/manual/Hello.html) page for a pair of longer instructions. Particularly the guide book [Nobody Knows Shoes](http://cloud.github.com/downloads/shoes/shoes/nks.pdf), which teaches the ten essential commands to get going with Shoes.
 
