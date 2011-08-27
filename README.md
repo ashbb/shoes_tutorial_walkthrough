@@ -79,7 +79,11 @@ Time for something new, artwork!  Let's draw!
 
 ```ruby
 Shoes.app {
-  oval :left => 10, :top => 10, :radius => 40
+  oval(
+    :left => 10,
+    :top => 10,
+    :radius => 40
+  )
 }
 ```
 
@@ -96,8 +100,16 @@ Now, a rectangle and an arrow.
 ```ruby
 Shoes.app {
   fill red
-  rect :left => 10, :top => 10, :width => 40
-  arrow :left => 30, :top => 60, :width => 40
+  rect(
+    :left => 10,
+    :top => 10,
+    :width => 40
+  )
+  arrow(
+    :left => 30,
+    :top => 60,
+    :width => 40
+  )
 }
 ```
 
@@ -106,7 +118,7 @@ The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't
 Did you see how the arrow is a little overtop of the circle?
 
 <!--
-TODO:  Change the colour of the two shapes.
+TODO:  Change the colour of the two shapes.  Then update the screenshot.
 -->
 
 ----------------------
@@ -179,7 +191,6 @@ You can then put the variables into action. When the button is clicked, the `@no
 Shoes.app {
   @push = button "Push me"
   @note = para "Nothing pushed so far"
-
   @push.click {
     @note.replace "Aha! Click!"
   }
@@ -195,11 +206,13 @@ See if you can figure out this one. How does the gradient work? How are the lett
 ```ruby
 Shoes.app do
   background "#F3F".."#F90"
-  title "Shoooes",
+  title(
+    "Shoooes",
     :top => 60,
     :align => "center",
     :font => "Trebuchet MS",
     :stroke => white
+  )
 end
 ```
 
@@ -214,7 +227,10 @@ Aha, here's a flow. It keeps the text box and the button side-by-side.
 ```ruby
 Shoes.app do
   background "#EFC"
-  border "#BE8", :strokewidth => 6
+  border(
+    "#BE8",
+    :strokewidth => 6
+  )
   stack(:margin => 12) do
     para "Enter your name"
     flow do
@@ -233,7 +249,7 @@ In this one, we make a five-point star. And it follows the mouse around as you m
 
 ```ruby
 Shoes.app do
-  @shape = star :points => 5
+  @shape = star(:points => 5)
   motion do |left, top|
     @shape.move left, top
   end
@@ -246,8 +262,11 @@ On to a taste of animation. The Shoes icon moves randomly a bunch of times each 
 
 ```ruby
 Shoes.app do
-  @shoes = image "http://spiralofhope.com/i/ruby-shoes--shoes.png",
-    :top => 100, :left => 100
+  @shoes = image(
+    "http://spiralofhope.com/i/ruby-shoes--shoes.png",
+    :top => 100,
+    :left => 100
+  )
   animate do |i|
     @shoes.top += (-20..20).rand
     @shoes.left += (-20..20).rand
@@ -268,7 +287,7 @@ Remember a few examples ago when we handled a button click? How about doing the 
 
 ```ruby
 Shoes.app do
-  @poem = stack {
+  @poem = stack do
     para "My eyes have blinked again
 And I have just realized
 This upright world 
@@ -278,10 +297,11 @@ My eyelids wipe
 My eyes hundreds of times
 Reseting and renovating
 The scenery."
-  }
-
+  end
   para(
-    link("Clear").click { @poem.clear }
+    link("Clear").click do
+      @poem.clear
+    end
   )
 end
 ```
@@ -299,12 +319,13 @@ Shoes.app(:width => 300, :height => 400) do
   fill rgb(0, 0.6, 0.9, 0.1)
   stroke rgb(0, 0.6, 0.9)
   strokewidth 0.25
-  100.times {
-    oval
+  100.times do
+    oval(
       :left => (-5..self.width).rand,
       :top => (-5..self.height).rand,
       :radius => (25..50).rand
-  }
+    )
+  end
 end
 ```
 
