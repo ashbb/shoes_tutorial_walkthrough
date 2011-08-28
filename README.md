@@ -93,7 +93,7 @@ Notice that while buttons just dropped into the window, we drew the circle at a 
 
 ----------------------
 
-![005.jpg](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/005.jpg)
+![005.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/005.png)
 
 Now, a rectangle and an arrow.
 
