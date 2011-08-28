@@ -18,7 +18,7 @@ An introduction to Shoes. Code and graphical pairs.
 
 Okay, so, a simple Shoes program.
 
-![001.png](https://github.com/spiralofhope/shoes_tutorial_walkthrough/raw/master/imgs/001.png)
+![001.png](https://github.com/ashbb/shoes_tutorial_walkthrough/raw/master/imgs/001.png)
 
 ```ruby
 Shoes.app { button "Push me" }
