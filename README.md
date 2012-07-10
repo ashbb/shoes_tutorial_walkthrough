@@ -115,7 +115,7 @@ Shoes.app {
 
 The *fill* is red on these shapes. And the *stroke* is black. (Because we didn't change it.) These two pens - stroke and fill - draw every shape.
 
-Did you see how the arrow is a little overtop of the circle?
+Did you see how the arrow is a little overtop of the rectangle?
 
 <!--
 TODO:  Change the colour of the two shapes.  Then update the screenshot.
